@@ -1,0 +1,9 @@
+2020-12-10 20:36:58,976 INFO o.s.w.s.DispatcherServlet [main] Initializing Servlet 'pulse'
+2020-12-10 20:36:59,958 INFO o.s.s.w.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f138b74, org.springframework.security.web.context.SecurityContextPersistenceFilter@3338d706, org.springframework.security.web.header.HeaderWriterFilter@3bea478e, org.springframework.security.web.authentication.logout.LogoutFilter@51d80f6e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@122a6078, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fb555e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@125c03d3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c682826, org.springframework.security.web.session.SessionManagementFilter@76cad511, org.springframework.security.web.access.ExceptionTranslationFilter@1978eab7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7e9d171c]
+2020-12-10 20:36:59,988 INFO o.a.g.t.p.i.PulseAppListener [main] Context Initialized.. 
+2020-12-10 20:36:59,989 INFO o.a.g.t.p.i.ClassPathPropertiesFileLoader [main] GemFireVersion.properties File Found 
+2020-12-10 20:36:59,989 INFO o.a.g.t.p.i.PulseAppListener [main] Pulse Version: 1.13.2-build.0 nabarun 0 2020-12-10 20:21:11 -0800
+2020-12-10 20:36:59,989 INFO o.a.g.t.p.i.PulseAppListener [main] Checking whether Pulse is running in embedded mode..
+2020-12-10 20:36:59,989 INFO o.a.g.t.p.i.PulseAppListener [main] Pulse is running in Embedded Mode..
+2020-12-10 20:36:59,991 INFO o.s.w.s.DispatcherServlet [main] Completed initialization in 1012 ms
+2020-12-10 20:41:11,011 INFO o.a.g.t.p.i.PulseAppListener [Shutdown Disconnector1] Context Destroyed.. /pulse

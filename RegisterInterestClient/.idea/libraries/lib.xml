@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../geodeDevelopement/geode/geode-assembly/build/install/apache-geode/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../geodeDevelopement/geode/geode-assembly/build/install/apache-geode/lib" recursive="false" />
+  </library>
+</component>

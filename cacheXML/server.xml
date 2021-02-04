@@ -1,0 +1,15 @@
+<cache xmlns="http://geode.apache.org/schema/cache" xmlns:jdbc="http://geode.apache.org/schema/jdbc" xmlns:lucene="http://geode.apache.org/schema/lucene" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://geode.apache.org/schema/lucene http://geode.apache.org/schema/lucene/lucene-1.0.xsd http://geode.apache.org/schema/cache http://geode.apache.org/schema/cache/cache-1.0.xsd http://geode.apache.org/schema/jdbc http://geode.apache.org/schema/jdbc/jdbc-1.0.xsd">
+	<disk-store name="dataStore" compaction-threshold="40" auto-compact="false" allow-force-compaction="true" max-oplog-size="75" queue-size="10000" time-interval="15" write-buffer-size="65535">
+		<disk-dirs>
+			<disk-dir dir-size="2000">dataStore</disk-dir>
+		</disk-dirs>
+	</disk-store>
+	<pdx read-serialized="true"/>
+	<region-attributes id="ReplicateRefId" data-policy="replicate" statistics-enabled="true" concurrency-checks-enabled="false" scope="distributed-ack"/>
+	<region name="People">
+		<region-attributes refid="ReplicateRefId" enable-subscription-conflation="true"/>
+	</region>
+	<region name="TestRegion">
+		<region-attributes refid="REPLICATE_PERSISTENT" disk-store-name="dataStore"/>
+	</region>
+</cache>

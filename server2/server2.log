@@ -1,0 +1,452 @@
+[info 2020/12/10 20:37:17.840 PST server2 <main> tid=0x1] 
+---------------------------------------------------------------------------
+  
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with this
+  work for additional information regarding copyright ownership.
+   
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with the
+  License.  You may obtain a copy of the License at
+  
+  http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+  License for the specific language governing permissions and limitations
+  under the License.
+  
+---------------------------------------------------------------------------
+Build-Date: 2020-12-10 20:21:11 -0800
+Build-Id: nabarun 0
+Build-Java-Vendor: AdoptOpenJDK
+Build-Java-Version: 1.8.0_275
+Build-Platform: Linux 5.4.0-56-generic amd64
+Product-Name: Apache Geode
+Product-Version: 1.13.2-build.0
+Source-Date: 2020-12-09 14:17:41 -0800
+Source-Repository: support/1.13
+Source-Revision: 3ae87364255cf6b8fdec6e27325bdbbdecf2d76e
+Running on: /10.0.0.235, 12 cpu(s), amd64 Linux 5.4.0-56-generic 
+Communications version: 120
+Process ID: 63011
+User: nabarun
+Current dir: /home/nabarun/Development/GEM-3062_RegisterInterest/server2
+Home dir: /home/nabarun
+Command Line Parameters:
+  -Dgemfire.locators=localhost[10334]
+  -Dgemfire.start-dev-rest-api=false
+  -Dgemfire.use-cluster-configuration=true
+  -Dgemfire.cache-xml-file=/home/nabarun/Development/GEM-3062_RegisterInterest/cacheXML/server.xml
+  -Dgemfire.launcher.registerSignalHandlers=true
+  -Djava.awt.headless=true
+  -Dsun.rmi.dgc.server.gcInterval=9223372036854775806
+Class Path:
+  /home/nabarun/Development/geodeDevelopement/geode/geode-assembly/build/install/apache-geode/lib/geode-core-1.13.2-build.0.jar
+  /home/nabarun/Development/geodeDevelopement/geode/geode-assembly/build/install/apache-geode/lib/geode-dependencies.jar
+Library Path:
+  /usr/java/packages/lib/amd64
+  /usr/lib64
+  /lib64
+  /lib
+  /usr/lib
+System Properties:
+    awt.toolkit = sun.awt.X11.XToolkit
+    file.encoding = UTF-8
+    file.encoding.pkg = sun.io
+    file.separator = /
+    gemfire.cache-xml-file = /home/nabarun/Development/GEM-3062_RegisterInterest/cacheXML/server.xml
+    gemfire.launcher.registerSignalHandlers = true
+    gemfire.locators = localhost[10334]
+    gemfire.start-dev-rest-api = false
+    gemfire.use-cluster-configuration = true
+    java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+    java.awt.headless = true
+    java.awt.printerjob = sun.print.PSPrinterJob
+    java.class.version = 52.0
+    java.endorsed.dirs = /usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/endorsed
+    java.ext.dirs = /usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+    java.home = /usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre
+    java.io.tmpdir = /tmp
+    java.runtime.name = OpenJDK Runtime Environment
+    java.runtime.version = 1.8.0_275-b01
+    java.specification.name = Java Platform API Specification
+    java.specification.vendor = Oracle Corporation
+    java.specification.version = 1.8
+    java.vendor = AdoptOpenJDK
+    java.vendor.url = https://adoptopenjdk.net/
+    java.vendor.url.bug = https://github.com/AdoptOpenJDK/openjdk-support/issues
+    java.version = 1.8.0_275
+    java.vm.info = mixed mode
+    java.vm.name = OpenJDK 64-Bit Server VM
+    java.vm.specification.name = Java Virtual Machine Specification
+    java.vm.specification.vendor = Oracle Corporation
+    java.vm.specification.version = 1.8
+    java.vm.vendor = AdoptOpenJDK
+    java.vm.version = 25.275-b01
+    jna.loaded = true
+    jna.platform.library.path = /usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/lib/i386-linux-gnu:/usr/lib/x86_64-linux-gnu/libfakeroot
+    jnidispatch.path = /home/nabarun/.cache/JNA/temp/jna3366667963087296501.tmp
+    line.separator = 
+
+    os.version = 5.4.0-56-generic
+    path.separator = :
+    sun.arch.data.model = 64
+    sun.boot.class.path = /usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/resources.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/rt.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/jsse.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/jce.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/charsets.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/jfr.jar:/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/classes
+    sun.boot.library.path = /usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/jre/lib/amd64
+    sun.cpu.endian = little
+    sun.cpu.isalist = 
+    sun.desktop = gnome
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.java.command = org.apache.geode.distributed.ServerLauncher start server2 --server-port=40405
+    sun.java.launcher = SUN_STANDARD
+    sun.jnu.encoding = UTF-8
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    sun.os.patch.level = unknown
+    sun.rmi.dgc.server.gcInterval = 9223372036854775806
+    user.country = US
+    user.language = en
+    user.timezone = America/Los_Angeles
+Log4J 2 Configuration:
+    jar:file:/home/nabarun/Development/geodeDevelopement/geode/geode-assembly/build/install/apache-geode/lib/geode-log4j-1.13.2-build.0.jar!/log4j2.xml
+---------------------------------------------------------------------------
+
+
+[info 2020/12/10 20:37:17.851 PST server2 <main> tid=0x1] Startup Configuration: 
+### GemFire Properties defined with system property ###
+cache-xml-file=/home/nabarun/Development/GEM-3062_RegisterInterest/cacheXML/server.xml
+locators=localhost[10334]
+start-dev-rest-api=false
+use-cluster-configuration=true
+### GemFire Properties defined with api ###
+name=server2
+### GemFire Properties defined with launcher ###
+log-file=/home/nabarun/Development/GEM-3062_RegisterInterest/server2/server2.log
+### GemFire Properties using default values ###
+ack-severe-alert-threshold=0
+ack-wait-threshold=15
+archive-disk-space-limit=0
+archive-file-size-limit=0
+async-distribution-timeout=0
+async-max-queue-size=8
+async-queue-timeout=60000
+bind-address=
+cluster-configuration-dir=
+cluster-ssl-ciphers=any
+cluster-ssl-enabled=false
+cluster-ssl-keystore=
+cluster-ssl-keystore-password=
+cluster-ssl-keystore-type=
+cluster-ssl-protocols=any
+cluster-ssl-require-authentication=true
+cluster-ssl-truststore=
+cluster-ssl-truststore-password=
+conflate-events=server
+conserve-sockets=true
+delta-propagation=true
+deploy-working-dir=/home/nabarun/Development/GEM-3062_RegisterInterest/server2
+disable-auto-reconnect=false
+disable-jmx=false
+disable-tcp=false
+distributed-system-id=-1
+distributed-transactions=false
+durable-client-id=
+durable-client-timeout=300
+enable-cluster-configuration=true
+enable-management-rest-service=true
+enable-network-partition-detection=true
+enable-time-statistics=false
+enforce-unique-host=false
+gateway-ssl-ciphers=any
+gateway-ssl-enabled=false
+gateway-ssl-keystore=
+gateway-ssl-keystore-password=
+gateway-ssl-keystore-type=
+gateway-ssl-protocols=any
+gateway-ssl-require-authentication=true
+gateway-ssl-truststore=
+gateway-ssl-truststore-password=
+groups=
+http-service-bind-address=
+http-service-port=7070
+http-service-ssl-ciphers=any
+http-service-ssl-enabled=false
+http-service-ssl-keystore=
+http-service-ssl-keystore-password=
+http-service-ssl-keystore-type=
+http-service-ssl-protocols=any
+http-service-ssl-require-authentication=false
+http-service-ssl-truststore=
+http-service-ssl-truststore-password=
+jmx-manager=false
+jmx-manager-access-file=
+jmx-manager-bind-address=
+jmx-manager-hostname-for-clients=
+jmx-manager-http-port=7070
+jmx-manager-password-file=
+jmx-manager-port=1099
+jmx-manager-ssl-ciphers=any
+jmx-manager-ssl-enabled=false
+jmx-manager-ssl-keystore=
+jmx-manager-ssl-keystore-password=
+jmx-manager-ssl-keystore-type=
+jmx-manager-ssl-protocols=any
+jmx-manager-ssl-require-authentication=true
+jmx-manager-ssl-truststore=
+jmx-manager-ssl-truststore-password=
+jmx-manager-start=false
+jmx-manager-update-rate=2000
+load-cluster-configuration-from-dir=false
+locator-wait-time=0
+lock-memory=false
+log-disk-space-limit=0
+log-file-size-limit=0
+log-level=config
+max-num-reconnect-tries=3
+max-wait-time-reconnect=60000
+mcast-address=239.192.81.1
+mcast-flow-control=1048576, 0.25, 5000
+mcast-port=0
+mcast-recv-buffer-size=1048576
+mcast-send-buffer-size=65535
+mcast-ttl=32
+member-timeout=5000
+membership-port-range=41000-61000
+memcached-bind-address=
+memcached-port=0
+memcached-protocol=ASCII
+off-heap-memory-size=
+redis-bind-address=
+redis-password=
+redis-port=0
+redundancy-zone=
+remote-locators=
+remove-unresponsive-client=false
+roles=
+security-auth-token-enabled-components=
+security-client-accessor=
+security-client-accessor-pp=
+security-client-auth-init=
+security-client-authenticator=
+security-client-dhalgo=
+security-log-file=
+security-log-level=config
+security-manager=
+security-peer-auth-init=
+security-peer-authenticator=
+security-peer-verifymember-timeout=1000
+security-post-processor=
+security-udp-dhalgo=
+serializable-object-filter=!*
+server-bind-address=
+server-ssl-ciphers=any
+server-ssl-enabled=false
+server-ssl-keystore=
+server-ssl-keystore-password=
+server-ssl-keystore-type=
+server-ssl-protocols=any
+server-ssl-require-authentication=true
+server-ssl-truststore=
+server-ssl-truststore-password=
+socket-buffer-size=32768
+socket-lease-time=60000
+ssl-ciphers=any
+ssl-cluster-alias=
+ssl-default-alias=
+ssl-enabled-components=
+ssl-endpoint-identification-enabled=false
+ssl-gateway-alias=
+ssl-jmx-alias=
+ssl-keystore=
+ssl-keystore-password=
+ssl-keystore-type=
+ssl-locator-alias=
+ssl-parameter-extension=
+ssl-protocols=any
+ssl-require-authentication=true
+ssl-server-alias=
+ssl-truststore=
+ssl-truststore-password=
+ssl-truststore-type=
+ssl-use-default-context=false
+ssl-web-alias=
+ssl-web-require-authentication=false
+start-locator=
+statistic-archive-file=
+statistic-sample-rate=1000
+statistic-sampling-enabled=true
+tcp-port=0
+thread-monitor-enabled=true
+thread-monitor-interval-ms=60000
+thread-monitor-time-limit-ms=30000
+udp-fragment-size=60000
+udp-recv-buffer-size=1048576
+udp-send-buffer-size=65535
+user-command-packages=
+validate-serializable-objects=false
+
+
+[info 2020/12/10 20:37:17.855 PST server2 <main> tid=0x1] initializing InternalDataSerializer with 7 services
+
+[info 2020/12/10 20:37:17.867 PST server2 <main> tid=0x1] Serial Queue info : THROTTLE_PERCENT: 0.75 SERIAL_QUEUE_BYTE_LIMIT :41943040 SERIAL_QUEUE_THROTTLE :31457280 TOTAL_SERIAL_QUEUE_BYTE_LIMIT :83886080 TOTAL_SERIAL_QUEUE_THROTTLE :31457280 SERIAL_QUEUE_SIZE_LIMIT :20000 SERIAL_QUEUE_SIZE_THROTTLE :15000
+
+[info 2020/12/10 20:37:17.953 PST server2 <main> tid=0x1] Starting membership services
+
+[info 2020/12/10 20:37:18.002 PST server2 <main> tid=0x1] Established local address 10.0.0.235(server2:63011):41002
+
+[info 2020/12/10 20:37:18.003 PST server2 <main> tid=0x1] JGroups channel created (took 49ms)
+
+[info 2020/12/10 20:37:18.013 PST server2 <main> tid=0x1] GemFire P2P Listener started on /10.0.0.235:44999
+
+[info 2020/12/10 20:37:18.014 PST server2 <Geode Failure Detection Server thread 1> tid=0x20] Started failure detection server thread on /10.0.0.235:50458.
+
+[info 2020/12/10 20:37:18.035 PST server2 <main> tid=0x1] received FindCoordinatorResponse(coordinator=10.0.0.235(locator1:62737:locator)<ec><v0>:41000, fromView=true, viewId=1, registrants=[10.0.0.235(server2:63011):41002], senderId=10.0.0.235(locator1:62737:locator)<ec><v0>:41000, network partition detection enabled=true, locators preferred as coordinators=true, view=View[10.0.0.235(locator1:62737:locator)<ec><v0>:41000|1] members: [10.0.0.235(locator1:62737:locator)<ec><v0>:41000, 10.0.0.235(server1:62880)<v1>:41001{lead}]) from locator HostAndPort[localhost:10334]
+
+[info 2020/12/10 20:37:18.036 PST server2 <main> tid=0x1] Locator's address indicates it is part of a distributed system so I will not become membership coordinator on this attempt to join
+
+[info 2020/12/10 20:37:18.036 PST server2 <main> tid=0x1] findCoordinator chose 10.0.0.235(locator1:62737:locator)<ec><v0>:41000 out of these possible coordinators: [10.0.0.235(locator1:62737:locator)<ec><v0>:41000]
+
+[info 2020/12/10 20:37:18.036 PST server2 <main> tid=0x1] Discovery state after looking for membership coordinator is locatorsContacted=1; findInViewResponses=0; alreadyTried=[]; registrants=[]; possibleCoordinator=10.0.0.235(locator1:62737:locator)<ec><v0>:41000; viewId=1; hasContactedAJoinedLocator=true; view=View[10.0.0.235(locator1:62737:locator)<ec><v0>:41000|1] members: [10.0.0.235(locator1:62737:locator)<ec><v0>:41000, 10.0.0.235(server1:62880)<v1>:41001{lead}]; responses=[]
+
+[info 2020/12/10 20:37:18.036 PST server2 <main> tid=0x1] found possible coordinator 10.0.0.235(locator1:62737:locator)<ec><v0>:41000
+
+[info 2020/12/10 20:37:18.036 PST server2 <main> tid=0x1] Attempting to join the distributed system through coordinator 10.0.0.235(locator1:62737:locator)<ec><v0>:41000 using address 10.0.0.235(server2:63011):41002
+
+[info 2020/12/10 20:37:18.373 PST server2 <unicast receiver,nabarun-Precision-5820-Tower-2082> tid=0x1c] received new view: View[10.0.0.235(locator1:62737:locator)<ec><v0>:41000|2] members: [10.0.0.235(locator1:62737:locator)<ec><v0>:41000, 10.0.0.235(server1:62880)<v1>:41001{lead}, 10.0.0.235(server2:63011)<v2>:41002]
+old view is: null
+
+[info 2020/12/10 20:37:18.383 PST server2 <main> tid=0x1] Finished joining (took 368ms).
+
+[info 2020/12/10 20:37:18.384 PST server2 <main> tid=0x1] Starting DistributionManager 10.0.0.235(server2:63011)<v2>:41002.  (took 511 ms)
+
+[info 2020/12/10 20:37:18.385 PST server2 <main> tid=0x1] Initial (distribution manager) view, View[10.0.0.235(locator1:62737:locator)<ec><v0>:41000|2] members: [10.0.0.235(locator1:62737:locator)<ec><v0>:41000, 10.0.0.235(server1:62880)<v1>:41001{lead}, 10.0.0.235(server2:63011)<v2>:41002]
+
+[info 2020/12/10 20:37:18.403 PST server2 <P2P message reader for 10.0.0.235(locator1:62737:locator)<ec><v0>:41000 shared unordered uid=2 local port=44999 remote port=40486> tid=0x24] Member 10.0.0.235(locator1:62737:locator)<ec><v0>:41000 is equivalent or in the same redundancy zone.
+
+[info 2020/12/10 20:37:18.404 PST server2 <P2P message reader for 10.0.0.235(server1:62880)<v1>:41001 shared unordered uid=3 local port=44999 remote port=40492> tid=0x29] Member 10.0.0.235(server1:62880)<v1>:41001 is equivalent or in the same redundancy zone.
+
+[info 2020/12/10 20:37:18.407 PST server2 <main> tid=0x1] DistributionManager 10.0.0.235(server2:63011)<v2>:41002 started on localhost[10334]. There were 2 other DMs. others: [10.0.0.235(locator1:62737:locator)<ec><v0>:41000, 10.0.0.235(server1:62880)<v1>:41001]  (took 546 ms) 
+
+[info 2020/12/10 20:37:18.448 PST server2 <StatSampler> tid=0x2b] Disabling statistic archival.
+
+[info 2020/12/10 20:37:18.537 PST server2 <main> tid=0x1] Attempting to retrieve cluster configuration from locator1 - 6 attempts remaining
+
+[info 2020/12/10 20:37:18.550 PST server2 <main> tid=0x1] Received cluster configuration from the locator
+
+[info 2020/12/10 20:37:18.550 PST server2 <main> tid=0x1] 
+***************************************************************
+Configuration for  'cluster'
+
+Jar files to be deployed:
+  None
+
+[info 2020/12/10 20:37:18.581 PST server2 <main> tid=0x1] deploying jars received from cluster configuration
+
+[info 2020/12/10 20:37:18.588 PST server2 <main> tid=0x1] Initialized cache service org.apache.geode.cache.query.internal.QueryConfigurationServiceImpl
+
+[info 2020/12/10 20:37:18.589 PST server2 <main> tid=0x1] Initialized cache service org.apache.geode.connectors.jdbc.internal.JdbcConnectorServiceImpl
+
+[info 2020/12/10 20:37:19.060 PST server2 <main> tid=0x1] Initialized cache service org.apache.geode.management.internal.cli.remote.OnlineCommandProcessor
+
+[info 2020/12/10 20:37:19.064 PST server2 <main> tid=0x1] Initialized cache service org.apache.geode.cache.lucene.internal.LuceneServiceImpl
+
+[info 2020/12/10 20:37:19.065 PST server2 <main> tid=0x1] Initialized cache service org.apache.geode.internal.memcached.GeodeMemcachedService
+
+[info 2020/12/10 20:37:19.066 PST server2 <main> tid=0x1] Initialized cache service com.gemstone.gemfire.OldClientSupportProvider
+
+[info 2020/12/10 20:37:19.066 PST server2 <main> tid=0x1] Initialized cache service org.apache.geode.redis.internal.GeodeRedisService
+
+[info 2020/12/10 20:37:19.114 PST server2 <main> tid=0x1] Enabled InternalHttpService on port 7070
+
+[info 2020/12/10 20:37:19.115 PST server2 <main> tid=0x1] Initialized cache service org.apache.geode.internal.cache.InternalHttpService
+
+[info 2020/12/10 20:37:19.140 PST server2 <main> tid=0x1] Initializing region _monitoringRegion_10.0.0.235<v2>41002
+
+[info 2020/12/10 20:37:19.146 PST server2 <main> tid=0x1] Region _monitoringRegion_10.0.0.235<v2>41002 requesting initial image from 10.0.0.235(locator1:62737:locator)<ec><v0>:41000
+
+[info 2020/12/10 20:37:19.149 PST server2 <main> tid=0x1] _monitoringRegion_10.0.0.235<v2>41002 is done getting image from 10.0.0.235(locator1:62737:locator)<ec><v0>:41000. isDeltaGII is false
+
+[info 2020/12/10 20:37:19.150 PST server2 <main> tid=0x1] Initialization of region _monitoringRegion_10.0.0.235<v2>41002 completed
+
+[info 2020/12/10 20:37:19.215 PST server2 <main> tid=0x1] Initializing cache using file:/home/nabarun/Development/GEM-3062_RegisterInterest/cacheXML/server.xml:
+<cache xmlns="http://geode.apache.org/schema/cache" xmlns:jdbc="http://geode.apache.org/schema/jdbc" xmlns:lucene="http://geode.apache.org/schema/lucene" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://geode.apache.org/schema/lucene http://geode.apache.org/schema/lucene/lucene-1.0.xsd http://geode.apache.org/schema/cache http://geode.apache.org/schema/cache/cache-1.0.xsd http://geode.apache.org/schema/jdbc http://geode.apache.org/schema/jdbc/jdbc-1.0.xsd">
+	<disk-store name="dataStore" compaction-threshold="40" auto-compact="false" allow-force-compaction="true" max-oplog-size="75" queue-size="10000" time-interval="15" write-buffer-size="65535">
+		<disk-dirs>
+			<disk-dir dir-size="2000">dataStore</disk-dir>
+		</disk-dirs>
+	</disk-store>
+	<pdx read-serialized="true"/>
+	<region-attributes id="ReplicateRefId" data-policy="replicate" statistics-enabled="true" concurrency-checks-enabled="false" scope="distributed-ack"/>
+	<region name="People">
+		<region-attributes refid="ReplicateRefId" enable-subscription-conflation="true"/>
+	</region>
+	<region name="TestRegion">
+		<region-attributes refid="REPLICATE_PERSISTENT" disk-store-name="dataStore"/>
+	</region>
+</cache>
+
+[info 2020/12/10 20:37:19.295 PST server2 <main> tid=0x1] Initializing region PdxTypes
+
+[info 2020/12/10 20:37:19.301 PST server2 <main> tid=0x1] Region PdxTypes requesting initial image from 10.0.0.235(server1:62880)<v1>:41001
+
+[info 2020/12/10 20:37:19.304 PST server2 <main> tid=0x1] PdxTypes is done getting image from 10.0.0.235(server1:62880)<v1>:41001. isDeltaGII is false
+
+[info 2020/12/10 20:37:19.304 PST server2 <main> tid=0x1] Initialization of region PdxTypes completed
+
+[info 2020/12/10 20:37:19.322 PST server2 <main> tid=0x1] Created disk store dataStore with unique id 77192bad5bf14eb8-807f1b84daf7c05d
+
+[info 2020/12/10 20:37:19.328 PST server2 <main> tid=0x1] recovery region initialization took 3 ms
+
+[info 2020/12/10 20:37:19.328 PST server2 <Idle OplogCompactor1> tid=0x38] Recovered values for disk store dataStore with unique id 77192bad-5bf1-4eb8-807f-1b84daf7c05d
+
+[info 2020/12/10 20:37:19.333 PST server2 <main> tid=0x1] Initializing region People
+
+[info 2020/12/10 20:37:19.338 PST server2 <main> tid=0x1] Region People requesting initial image from 10.0.0.235(server1:62880)<v1>:41001
+
+[info 2020/12/10 20:37:19.339 PST server2 <main> tid=0x1] People is done getting image from 10.0.0.235(server1:62880)<v1>:41001. isDeltaGII is false
+
+[info 2020/12/10 20:37:19.339 PST server2 <main> tid=0x1] Initialization of region People completed
+
+[info 2020/12/10 20:37:19.354 PST server2 <main> tid=0x1] Created oplog#1 drf for disk store dataStore.
+
+[info 2020/12/10 20:37:19.355 PST server2 <main> tid=0x1] Created oplog#1 crf for disk store dataStore.
+
+[info 2020/12/10 20:37:19.357 PST server2 <main> tid=0x1] Initializing region TestRegion
+
+[info 2020/12/10 20:37:19.366 PST server2 <main> tid=0x1] Region TestRegion requesting initial image from 10.0.0.235(server1:62880)<v1>:41001
+
+[info 2020/12/10 20:37:19.367 PST server2 <main> tid=0x1] TestRegion is done getting image from 10.0.0.235(server1:62880)<v1>:41001. isDeltaGII is false
+
+[info 2020/12/10 20:37:19.367 PST server2 <main> tid=0x1] Region TestRegion initialized persistent id: /10.0.0.235:/home/nabarun/Development/GEM-3062_RegisterInterest/server2/dataStore created at timestamp 1607661439356 version 0 diskStoreId 77192bad5bf14eb8-807f1b84daf7c05d name server2 with data from 10.0.0.235(server1:62880)<v1>:41001.
+
+[info 2020/12/10 20:37:19.368 PST server2 <main> tid=0x1] Initialization of region TestRegion completed
+
+[info 2020/12/10 20:37:19.405 PST server2 <main> tid=0x1] Cache server connection listener bound to address 10.0.0.235-0.0.0.0/0.0.0.0:40405 with backlog 1280.
+
+[info 2020/12/10 20:37:19.410 PST server2 <main> tid=0x1] ClientHealthMonitorThread maximum allowed time between pings: 60000
+
+[warn 2020/12/10 20:37:19.410 PST server2 <main> tid=0x1] Handshaker max Pool size: 4
+
+[info 2020/12/10 20:37:19.415 PST server2 <main> tid=0x1] CacheServer Configuration:  port=40405 max-connections=800 max-threads=0 notify-by-subscription=true socket-buffer-size=32768 maximum-time-between-pings=60000 maximum-message-count=230000 message-time-to-live=180 eviction-policy=none capacity=1 overflow directory=. groups=[] loadProbe=ConnectionCountProbe loadPollInterval=5000 tcpNoDelay=true
+
+[info 2020/12/10 20:37:19.420 PST server2 <main> tid=0x1] Server server2 startup completed in 1795 ms
+
+[info 2020/12/10 20:41:09.932 PST server2 <Function Execution Processor2> tid=0x3f] Received GFSH shutdown. Shutting down member 10.0.0.235(server2:63011)<v2>:41002
+
+[info 2020/12/10 20:41:10.962 PST server2 <Shutdown Disconnector1> tid=0x41] GemFireCache[id = 1546213358; isClosing = true; isShutDownAll = false; created = Thu Dec 10 20:37:18 PST 2020; server = true; copyOnRead = false; lockLease = 120; lockTimeout = 60]: Now closing.
+
+[info 2020/12/10 20:41:10.982 PST server2 <Shutdown Disconnector1> tid=0x41] Cache server on port 40405 is shutting down.
+
+[info 2020/12/10 20:41:11.008 PST server2 <Shutdown Disconnector1> tid=0x41] Shutting down DistributionManager 10.0.0.235(server2:63011)<v2>:41002. 
+
+[info 2020/12/10 20:41:12.111 PST server2 <Shutdown Disconnector1> tid=0x41] Now closing distribution for 10.0.0.235(server2:63011)<v2>:41002
+
+[info 2020/12/10 20:41:12.111 PST server2 <Shutdown Disconnector1> tid=0x41] Stopping membership services
+
+[info 2020/12/10 20:41:12.114 PST server2 <Geode Failure Detection Server thread 1> tid=0x20] GMSHealthMonitor server thread exiting
+
+[info 2020/12/10 20:41:12.128 PST server2 <Shutdown Disconnector1> tid=0x41] DistributionManager stopped in 1120ms.
+
+[info 2020/12/10 20:41:12.129 PST server2 <Shutdown Disconnector1> tid=0x41] Marking DistributionManager 10.0.0.235(server2:63011)<v2>:41002 as closed.
+

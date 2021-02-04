@@ -1,0 +1,9 @@
+
+[info 2020/12/10 20:37:03.297 PST <main> tid=0x1] Log opened with new distributed system connection.  View[10.0.0.235(locator1:62737:locator)<ec><v0>:41000|0] members: [10.0.0.235(locator1:62737:locator)<ec><v0>:41000]
+
+[info 2020/12/10 20:37:11.272 PST <DM-MemberEventInvoker> tid=0x18] A new member joined: 10.0.0.235(server1:62880)<v1>:41001.  View[10.0.0.235(locator1:62737:locator)<ec><v0>:41000|1] members: [10.0.0.235(locator1:62737:locator)<ec><v0>:41000, 10.0.0.235(server1:62880)<v1>:41001{lead}]
+
+[info 2020/12/10 20:37:18.372 PST <DM-MemberEventInvoker> tid=0x18] A new member joined: 10.0.0.235(server2:63011)<v2>:41002.  View[10.0.0.235(locator1:62737:locator)<ec><v0>:41000|2] members: [10.0.0.235(locator1:62737:locator)<ec><v0>:41000, 10.0.0.235(server1:62880)<v1>:41001{lead}, 10.0.0.235(server2:63011)<v2>:41002]
+
+[info 2020/12/10 20:38:07.261 PST <P2P message reader for 10.0.0.235(server1:62880)<v1>:41001 shared ordered uid=2 local port=60661 remote port=49548> tid=0x4f] server count: 2 connected client count: 0 client subscription queue count: 0.0
+  current servers : 10.0.0.235(server1:62880)<v1>:41001 10.0.0.235(server2:63011)<v2>:41002 

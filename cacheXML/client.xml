@@ -1,0 +1,15 @@
+<client-cache xmlns="http://geode.apache.org/schema/cache" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://geode.apache.org/schema/cache http://geode.apache.org/schema/cache/cache-1.0.xsd" version="1.0">
+	<pool name="client1" subscription-enabled="true">
+		<locator host="localhost" port="10334"/>
+	</pool>
+	<region name="People">
+		<region-attributes refid="CACHING_PROXY" pool-name="client1">
+			<cache-listener>
+				<class-name>SimpleCacheListener</class-name>
+			</cache-listener>
+		</region-attributes>
+	</region>
+	<region name="TestRegion">
+		<region-attributes refid="PROXY" pool-name="client1"> </region-attributes>
+	</region>
+</client-cache>
